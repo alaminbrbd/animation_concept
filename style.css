@@ -1,0 +1,41 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    /*-webkit-animation-name:test;*/
+    /*-webkit-animation-duration: 5s;*/
+    animation-name:test;
+    /*animation-duration: 5s;*/
+    /*animation-delay: -2s;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-iteration-count: inherit;*/
+    /*animation-iteration-count: initial;*/
+    /*animation-iteration-count: 3;*/
+    /*animation-direction:reverse;*/
+    /*animation-direction:alternate-reverse;*/
+    /*animation-direction:alternate;*/
+    /*animation-timing-function: ease;*/
+    /*animation-timing-function: ease-in;*/
+    /*animation-timing-function: ease-out;*/
+   /* animation-timing-function: ease-in-out;*/
+    /*animation-timing-function: linear;*/
+animation: test 5s infinite linear;
+}
+
+/*@-webkit-keyframes test{
+    0%{background-color: red; left:0px; top:0px;}
+    25%{background-color: green;left:300px; top:0px;}
+    50%{background-color: yellow;left:300px; top:300px;}
+    75%{background-color: blue;left:0px; top:300px;}
+    100%{background-color: aqua;left:0px; top:0px;}
+    
+    }*/
+@keyframes test{
+0%{background-color: red; left:0px; top:0px;}
+25%{background-color: green;left:300px; top:0px;}
+50%{background-color: yellow;left:300px; top:300px;}
+75%{background-color: blue;left:0px; top:300px;}
+100%{background-color: aqua;left:0px; top:0px;}
+
+}
